@@ -1,0 +1,17 @@
+<script>
+    function calcularImc(){
+        var nome = document.getElementById("nome").value;
+        var peso = parseFloat(document.getElementById("peso").value);
+        var altura = parseFloat(document.getElementeById("altura").value);
+    
+    }
+    if (isNaN(peso) || isNaN(altura)){
+        alert("por favor, insira valores númericoa para peso e altura.");
+        return;
+    }
+    IMC = peso / (altura * altura)
+
+    if (imc < 18.5) {
+        classificacao = "magreza"
+    }
+</script>
